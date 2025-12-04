@@ -106,7 +106,6 @@ body {
 
     .home-container img {
         height: 100vh;
-        width: 60%;
     }
 
     .bottom-strip {
@@ -116,6 +115,7 @@ body {
         width: 100%;
         height: 0.75rem;
     }
+
 
 
 
