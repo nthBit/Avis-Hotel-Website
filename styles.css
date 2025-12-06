@@ -85,17 +85,17 @@ body {
         gap: 1.5rem;
     }
 
-    .outer-card {
+    .stays-outer-card {
         position: relative;
         background-color: #C9D7C5;
         width: 100%;
     }
 
-    .outer-card img {
+    .stays-outer-card img {
         width: 100%;
     }
 
-    .inner-card {
+    .stays-inner-card {
         position: absolute;
         background-color: #F7F3EC;
         color: #3A3A3A;
@@ -108,16 +108,56 @@ body {
         left: 6%;
     }
 
-    .inner-card h2 {
+    .stays-inner-card h2 {
         font-family: "Playfair Display", serif;
         margin-top: 0;
     }
 
-    .inner-card p {
+    .stays-inner-card p {
         font-family: "Inter", sans-serif;
     }
 
+    /* Dine */
 
+    .dine-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        height: 50rem;
+        margin-left: 19rem;
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
 
+    .dine-outer-card {
+        position: relative;
+        background-color: #C9D7C5;
+        width: 100%;
+    }
 
+    .dine-outer-card img {
+        width: 100%;
+    }
 
+    .dine-inner-card {
+        position: absolute;
+        background-color: #F7F3EC;
+        color: #3A3A3A;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 8%;
+        width: 84%;
+        height: 40%;
+        bottom: 2rem;
+        left: 8%;
+    }
+
+    .dine-inner-card h2 {
+        font-family: "Playfair Display", serif;
+        margin-top: 0;
+    }
+
+    .dine-inner-card p {
+        font-family: "Inter", sans-serif;
+        margin-top: 0;
+    }
