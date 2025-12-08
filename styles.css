@@ -220,9 +220,68 @@ li {
 
 /* Contact */
 
+.contact-container {
+    margin-left: 19rem;
+    width: calc(100% - 20.5rem);
+    height: calc(100vh - 1.5rem);
+    color: #3A3A3A;
+}
 
+.contact-card {
+    display: flex;
+    margin-top: 1.5rem;
+    height: calc(100vh - 3rem);  
+    gap: 1.5rem;
+}
 
+.contact-right iframe {
+    width: 100%;
+    height: 50%;
+}
 
+.contact-right {
+    background-color: #C9D7C5;
+    width: 100%;
+    padding: 2rem;
+}
 
+.contact-right h2 {
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+}
 
+.contact-right p {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.contact-left {
+    margin-left: 1.5rem;
+    background-color: #C9D7C5;
+    box-sizing: border-box;
+    padding: 2rem;
+    width: 50%;
+}
+
+.contact-left h2 {
+    font-size: 1.7rem;
+    font-weight: 550;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 1%;
+    text-underline-offset: 17.5%;
+}
+
+.contact-left-checkin {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.15rem;
+}
+
+.contact-left-checkout {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.15rem;
+}
 
