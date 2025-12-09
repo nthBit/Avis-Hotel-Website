@@ -49,7 +49,8 @@ li {
 
 .header-container h1 {
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.65rem;
+    margin-top: 0;
 }
 
 .header-links {
@@ -258,7 +259,6 @@ li {
 
 .contact-left {
     margin-left: 1.5rem;
-    background-color: #C9D7C5;
     box-sizing: border-box;
     padding: 2rem;
     width: 50%;
@@ -271,15 +271,20 @@ li {
     text-decoration: underline;
     text-decoration-thickness: 1%;
     text-underline-offset: 17.5%;
+    margin-top: 0;
 }
 
-.contact-left-checkin {
+.checkin {
     display: flex;
     justify-content: space-between;
     font-size: 1.15rem;
 }
 
 .contact-left-checkout {
+    margin-top: 3rem;
+}
+
+.checkout {
     display: flex;
     justify-content: space-between;
     font-size: 1.15rem;
